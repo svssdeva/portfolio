@@ -19,6 +19,10 @@ max-height:100%;
     text-decoration-line: underline;
 }
 
+figure {
+    margin:10px;
+}
+
 @media screen and (min-width:769px) {
     body {
         margin-left: 100px;
