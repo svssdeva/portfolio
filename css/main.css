@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway';
+	color: #7d97ad;
+}
+
+.banImg {
+    max-width:100%;
+max-height:100%;
+}
+
+.others{
+    font-weight: bold;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+@media screen and (min-width:769px) {
+    body {
+        margin-left: 100px;
+        margin-right: 100px;
+}
+    
+    header {
+        border-bottom: 3px solid #7d97ad;
+        padding: 20px 0 20px 0;
+        margin-bottom: 20px;
+    }
+
+    .heading {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .logo {
+        width: 55px;
+        height: 55px;
+    }
+
+    .uname {
+        font-size: 28px;
+        color: #2d3c49;
+        margin: auto 0 auto 0;
+        text-transform: uppercase;
+    }
+
+    .utitle {
+        font-size: 20px;
+        text-align: right;
+        color: #2d3c49;
+        text-transform: uppercase;
+    }
+
+    .banpic {
+        margin-bottom: 20px;
+    }
+
+    .oworks {
+        margin-bottom: 20px;
+    }
+
+    .others {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #7d97ad;
+    }
+
+    .bucket {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: auto;
+        justify-content: space-around;
+    }
+
+    .proImg1 {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 12px;
+    }
+
+    .proImg2 {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 12px;
+    }
+
+    .proImg3 {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 12px;
+    }
+
+    figcaption {
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 18px;
+        color: #2d3c49;
+    }
+}
+
+@media screen and (min-width:361px)
+    and (max-width:768px) {
+    header {
+        border-bottom: 3px solid #7d97ad;
+        padding: 20px 50px 20px 50px;
+        margin-bottom: 20px;
+    }
+
+    .heading {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+        
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .uname {
+        font-size: 28px;
+        color: #2d3c49;
+        margin: auto 0 auto 0;
+        text-transform: uppercase;
+    }
+    
+    .utitle {
+        font-size: 20px;
+        color: #2d3c49;
+        text-align: right;
+        text-transform: uppercase;
+    }
+    
+    .banpic {
+        margin-bottom: 20px;
+    }
+    
+    .oworks {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .others {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #7d97ad;
+    }
+    
+    .proImg1 {
+        width: 500px;
+        height: 500px;
+        margin: 0 auto 15px auto;
+    }
+    
+    .proImg2 {
+        width: 500px;
+        height: 500px;
+        margin: 15px auto 15px auto;
+    }
+    
+    .proImg3 {
+        width: 500px;
+        height: 500px;
+        margin: 15px auto 15px auto;
+    }
+    
+    a {
+        text-decoration: none;
+        font-size: 20px;
+        color: #2d3c49;
+    }
+}
+
+@media screen and (max-width:360px) {
+    header {
+        border-bottom: 3px solid #7d97ad;
+        padding: 15px 20px 15px 20px;
+        margin-bottom: 20px;
+    }
+    
+    .heading {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .uname {
+        font-size: 18px;
+        color: #2d3c49;
+        margin: auto 0 auto 0;
+        text-transform: uppercase;
+    }
+    
+    .utitle {
+        font-size: 10px;
+        color: #2d3c49;
+        text-align: right;
+        text-transform: uppercase;
+    }
+    
+    .banpic {
+        margin-bottom: 10px;
+    }
+    
+    .oworks {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .others {
+        font-size: 14px;
+        margin-bottom: 10px;
+        color: #7d97ad;
+    }
+    
+    .proImg1 {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto 10px auto;
+    }
+    
+    .proImg2 {
+        width: 200px;
+        height: 200px;
+        margin: 10px auto 10px auto;
+    }
+    
+    .proImg3 {
+        width: 200px;
+        height: 200px;
+        margin: 10px auto 10px auto;
+    }
+    
+    a {
+        text-decoration: none;
+        font-size: 14px;
+        color: #2d3c49;
+    }
+}
